@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b165a20-16ec-48f1-b81d-d409c0d07e60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_web_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/locators/media_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pages/twitch_mobile_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/screenshot_with_logs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/twitch_base_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/twitch_test_oop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/tests/screenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_web_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for tests.twitch_test_oop.test_mob_page.executor": "Run",
     "Python tests.debug test_web_app.py (pixel 7).executor": "Run",
     "Python tests.pytest in test_web_app.py (pixel 7) (1).executor": "Debug",
     "Python tests.pytest in test_web_app.py (pixel 7).executor": "Run",
@@ -54,6 +61,7 @@
     "Python tests.pytest in test_web_app.py.executor": "Run",
     "Python tests.pytest.executor": "Debug",
     "Python tests.test_run.executor": "Run",
+    "Python tests.twitch_test_oop.py (pixel 7).executor": "Run",
     "Python.main.executor": "Debug",
     "Python.test_web_app.executor": "Debug",
     "Python.web_app.executor": "Run",
@@ -62,7 +70,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/Users/miha/PycharmProjects/SportyTeamTest",
+    "last_opened_file_path": "/Users/miha/PycharmProjects/SportyTeamTest/tests",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -76,10 +84,31 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.debug test_web_app.py (pixel 7)">
+    <configuration name="Python tests for tests.twitch_test_oop.test_mob_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SportyTeamTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.twitch_test_oop.test_mob_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
       <module name="SportyTeamTest" />
       <option name="ENV_FILES" value="" />
@@ -137,10 +166,36 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="twitch_test_oop.py (pixel 7)" type="tests" factoryName="py.test">
+      <module name="SportyTeamTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (SportyTeamTest)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed --device\u003d\&quot;Pixel 7\&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_mob_page&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.pytest in test_web_app.py (pixel 7)" />
       <item itemvalue="Python tests.debug test_web_app.py (pixel 7)" />
+      <item itemvalue="Python tests.twitch_test_oop.py (pixel 7)" />
+      <item itemvalue="Python tests.Python tests for tests.twitch_test_oop.test_mob_page" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for tests.twitch_test_oop.test_mob_page" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -164,17 +219,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_web_app.py</url>
-          <line>29</line>
+          <line>37</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_web_app.py</url>
-          <line>23</line>
+          <line>31</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_web_app.py</url>
-          <line>24</line>
+          <line>32</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
