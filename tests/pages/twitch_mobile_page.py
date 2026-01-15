@@ -1,20 +1,17 @@
 import re
-from playwright.sync_api import Page, sync_playwright, Playwright, expect
-from locators.media_locators import COOKIES_ACCEPT_BUTTON, MOB_SEARCH_ICON, MOB_SEARCH_FIELD, MOB_SEARCH_SECOND_DROPDOWN
 
-with sync_playwright() as pw:
-    browser = pw.chromium.launch()
+from playwright.sync_api import Page, expect
+from locators.media_locators import COOKIES_ACCEPT_BUTTON, MOB_SEARCH_ICON, MOB_SEARCH_FIELD
 
-
-class TwitchMobilePage(Page):
-    def __init__(self):
-        self.page = Page
-        # self.popup_accept =
+class TwitchMobilePage:
+    def __init__(self, page: Page):
+        self.page = page
+        self.mouse = page.mouse
+        self.locator = page.locator
 
     #TODO has to be covered by unittests
     def open(self):
-        # self.page = browser.new_page()
-        self.page.goto("https://www.twitch.tv/mobile")
+        self.page.goto("https://www.twitch.tv/")
         expect(self.page).to_have_title(re.compile("Twitch"))
         return self
 
@@ -42,3 +39,8 @@ class TwitchMobilePage(Page):
     #     """Hardcoded mob search field 2"""
     #     mob_search_dropdown = self.page.locator(MOB_SEARCH_SECOND_DROPDOWN)
     #     return mob_search_dropdown
+    # def wait_for_load_state(self, param):
+    #     pass
+    #
+    # def screenshot(self, path):
+    #     pass
