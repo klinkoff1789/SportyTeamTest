@@ -22,7 +22,6 @@ class TwitchPopupManager:
         print("[Framework] Registering popup handlers...")
 
         # 1. Cookie Consent Banner
-        # Priority: High (Blocks everything)
         self.page.add_locator_handler(
             self.page.locator('[data-a-target="consent-banner-accept"]'),
             self._handle_cookie_consent
@@ -52,7 +51,7 @@ class TwitchPageActions:
     def __init__(self, page: Page):
         self.page = page
 
-    def mob_scroll_down2(self, element=2):
+    def mob_scroll_down(self, element=2):
         """
         :param element: element is an integer start with 2,
         scroll down to the element in dropdown search results
