@@ -40,7 +40,7 @@ def run_test():
 
         logger.log(INFO, "Step 6: On the streamer page wait until all is loaded and take a screenshot")
         page.wait_for_load_state("networkidle")
-        page.screenshot(path="scr_twitch_popup_approach.png")
+        page.screenshot(path="run_test_twitch_v2.png")
 
         # Teardown
         browser.close()

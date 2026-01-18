@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b165a20-16ec-48f1-b81d-d409c0d07e60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/locators/media_locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pages/twitch_mobile_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/screenshot_with_logs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/twitch_base_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/twitch_test_oop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/tests/screenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_web_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/twitch_tv/run_test_twitch_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twitch_tv/run_test_twitch_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/twitch_tv/twich_base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/twitch_tv/twich_base_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="011" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -53,8 +53,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_twitch_oop.test_twitch_mob.executor": "Run",
+    "Python tests.Python tests for test_web_app.test_web_app.executor": "Debug",
     "Python tests.Python tests for tests.twitch_test_oop.test_mob_page.executor": "Run",
-    "Python tests.debug test_web_app.py (pixel 7).executor": "Run",
+    "Python tests.Python tests for twitch_tv.test_web_app.test_web_app.executor": "Run",
+    "Python tests.Python tests for twitch_tv.test_web_app_v1.test_web_app.executor": "Run",
+    "Python tests.debug test_web_app.py (pixel 7).executor": "Debug",
     "Python tests.pytest in test_web_app.py (pixel 7) (1).executor": "Debug",
     "Python tests.pytest in test_web_app.py (pixel 7).executor": "Run",
     "Python tests.pytest in test_web_app.py (pixel).executor": "Run",
@@ -62,7 +66,10 @@
     "Python tests.pytest.executor": "Debug",
     "Python tests.test_run.executor": "Run",
     "Python tests.twitch_test_oop.py (pixel 7).executor": "Run",
+    "Python.handle_popup_approach.executor": "Debug",
     "Python.main.executor": "Debug",
+    "Python.run_test_twitch.executor": "Run",
+    "Python.run_test_twitch_v2.executor": "Run",
     "Python.test_web_app.executor": "Debug",
     "Python.web_app.executor": "Run",
     "Python.web_app_tests.executor": "Run",
@@ -70,7 +77,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/Users/miha/PycharmProjects/SportyTeamTest/tests",
+    "last_opened_file_path": "/Users/miha/PycharmProjects/SportyTeamTest/tests/locators",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -84,16 +91,74 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/locators" />
+      <recent name="$PROJECT_DIR$/tests/data" />
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/tests/twitch_tv" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.debug test_web_app.py (pixel 7)">
+  <component name="RunManager" selected="Python.run_test_twitch_v2">
+    <configuration name="run_test_twitch_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SportyTeamTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/twitch_tv/run_test_twitch_v2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_twitch_oop.test_twitch_mob" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SportyTeamTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;--headed --device\u003d\&quot;Pixel 7\&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_twitch_oop.test_twitch_mob&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.twitch_test_oop.test_mob_page" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SportyTeamTest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;--headed --device\u003d\&quot;Pixel 7\&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.twitch_test_oop.test_mob_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for twitch_tv.test_web_app_v1.test_web_app" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SportyTeamTest" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,8 +169,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.twitch_test_oop.test_mob_page&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--headed --device\u003d\&quot;Pixel 7\&quot;&quot;" />
+      <option name="_new_target" value="&quot;twitch_tv.test_web_app_v1.test_web_app&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -162,7 +227,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;--headed --device\u003d\&quot;Pixel 7\&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_web_app.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/twitch_tv/test_web_app_v1.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -181,18 +246,25 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;--headed --device\u003d\&quot;Pixel 7\&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_mob_page&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_twitch_oop.test_twitch_mob&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in test_web_app.py (pixel 7)" />
+      <item itemvalue="Python.run_test_twitch_v2" />
       <item itemvalue="Python tests.debug test_web_app.py (pixel 7)" />
+      <item itemvalue="Python tests.pytest in test_web_app.py (pixel 7)" />
       <item itemvalue="Python tests.twitch_test_oop.py (pixel 7)" />
+      <item itemvalue="Python tests.Python tests for twitch_tv.test_web_app_v1.test_web_app" />
+      <item itemvalue="Python tests.Python tests for test_twitch_oop.test_twitch_mob" />
       <item itemvalue="Python tests.Python tests for tests.twitch_test_oop.test_mob_page" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_test_twitch_v2" />
+        <item itemvalue="Python tests.Python tests for twitch_tv.test_web_app_v1.test_web_app" />
+        <item itemvalue="Python tests.Python tests for test_twitch_oop.test_twitch_mob" />
+        <item itemvalue="Python tests.Python tests for tests.twitch_test_oop.test_mob_page" />
         <item itemvalue="Python tests.Python tests for tests.twitch_test_oop.test_mob_page" />
       </list>
     </recent_temporary>
@@ -218,19 +290,74 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_web_app.py</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/test_web_app_v1.py</url>
+          <line>44</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_web_app.py</url>
-          <line>31</line>
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/test_web_app_v1.py</url>
+          <line>39</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_web_app.py</url>
-          <line>32</line>
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/test_web_app_v1.py</url>
+          <line>40</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/test_web_app_v1.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/test_web_app_v1.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/test_web_app_v1.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/test_web_app_v1.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/test_web_app_v1.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/test_web_app_v1.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/twich_base_test.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/twich_base_test.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/run_test_twitch_v2.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/twich_base_test.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/twitch_tv/run_test_twitch_v2.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
